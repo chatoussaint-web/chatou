@@ -25,7 +25,7 @@ WHERE delegate_id IS NULL
        WHERE student.student_id = section.delegate_id
        )
 
---Exercice 4 — Self-join / jointure réflexive
+--Exercice 4 — Jointure
 --Affiche pour chaque section : le nom de la section, le nom complet de son délégué, et le nom du professeur responsable de cette section.
 --Attention : professor et student sont deux tables distinctes, mais section fait le lien entre les deux.
 SELECT s.section_name, st.first_name+' '+st.last_name AS delegue, p.professor_surname+' '+p.professor_name AS professor
