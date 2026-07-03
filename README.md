@@ -33,7 +33,7 @@ nombres premiers, somme des chiffres, suppression de doublons, recherche de
 maximum sans `max()`, comptage d'occurrences sans `.count()`, inversion de liste.
 
 ### `Claude_pandas.ipynb` — Manipulation de données avec pandas
-Série d'exercices sur un dataset fictif de chiens et propriétaires (deux DataFrames liés).
+Série d'exercices générés par Claude  et réalisés à la main sur un dataset fictif de chiens et propriétaires (deux DataFrames liés).
 Opérations couvertes : exploration (`head`, `shape`, `info`), sélection par position (`iloc`), filtrage, création de colonnes calculées, gestion des valeurs manquantes (`isna`, `fillna`), tri, `groupby`, et jointures entre tables (`merge` avec clés de noms différents).
 
 ---
