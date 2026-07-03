@@ -36,7 +36,7 @@ Série d'exercices générés par Claude et réalisés à la main suivant une pr
 filtrage de listes, comptage de caractères, détection de palindrome, FizzBuzz, nombres premiers, somme des chiffres, suppression de doublons, recherche de
 maximum sans `max()`, comptage d'occurrences sans `.count()`, inversion de liste.
 
-### `Lumo_python.ipynb` — Manipulation de données avec python
+### `Lumo_python.ipynb` — Exercices Python & SQL
 Série d'exercices générés par Lumo et réalisés à la main
 Côté Python : comptage de mots dans une phrase (dictionnaires et boucles), recherche du nombre le plus fréquent (`max` avec `key=dict.get`), filtrage
 des nombres pairs avec tri (`.append()` + `sorted()`), top 3 des mots les plus fréquents sur plusieurs phrases (tri personnalisé et slicing), moyenne
