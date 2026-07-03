@@ -58,14 +58,14 @@ print(len(chiens))
 print("Pamina" in chiens)
 print (chiens)
 
-Falkor = {"nom" : "Falkor",
+falkor = {"nom" : "Falkor",
          "race" : "Bichon Frisé",
          "age" : 17}
 
-print(Falkor["race"])
-Falkor["couleur"] = "blanc"
+print(falkor["race"])
+falkor["couleur"] = "blanc"
 
-for clé, valeur in Falkor.items():
+for clé, valeur in falkor.items():
     print(f"{clé}: {valeur}")
 
 chiens = ["Falkor", "Pamina", "Mikado"]
