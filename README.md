@@ -9,7 +9,7 @@ de l'intégration IA et de la data (2026).
 chatou/
 ├── Notebooks/
 │   ├── Claude_pandas.ipynb
-|   ├── Exercices.ipynb
+│   ├── Exercices.ipynb
 │   └── Lumo_python.ipynb
 ├── Python/
 │   ├── OCR/
@@ -49,9 +49,8 @@ avec agrégation `SUM()` et `ORDER BY DESC`.
 ## Python
 
 ### `OCR/` — Extraction de texte par OCR
-Scripts d'extraction de texte depuis le presse-papiers, avec support du chinois
+Scripts d'extraction de texte depuis le presse-papiers, avec support du chinois (`ocr_zh.py`) et traitement général (`ocr.py`).
 Nécessite le binaire Tesseract installé séparément, avec les packs de langues correspondants (voir requirements.txt pour les dépendances Python).
-(`ocr_zh.py`) et traitement général (`ocr.py`).
 
 ### `Chiens.py` — Premier script Python
 Script d'initiation couvrant les bases du langage : variables, f-strings, conditions, boucles `while` et `for`, fonctions, listes, dictionnaires,
@@ -68,7 +67,7 @@ tout premier projet ludique autonome.
 ### `SQL_TEST_DBSlide.sql` — Base de données personnelle DBSlide
 Requêtes et tests sur une base de données reçue en formation SQL (DBSlide).
 
-### `SQLExos_Adventure Works2025_1.sql` — Exercices Adventure Works
+### `SQLExos_Adventure_Works2025_1.sql` — Exercices Adventure Works
 Exercices sur la base de données Adventure Works 2025 (dataset Microsoft standard).
 
 ### `SQLQuery_TEST_Librairie.sql` — Base de données Librairie
