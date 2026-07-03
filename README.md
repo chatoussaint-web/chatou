@@ -50,6 +50,7 @@ avec agrégation `SUM()` et `ORDER BY DESC`.
 
 ### `OCR/` — Extraction de texte par OCR
 Scripts d'extraction de texte depuis le presse-papiers, avec support du chinois
+Nécessite le binaire Tesseract installé séparément, avec les packs de langues correspondants (voir requirements.txt pour les dépendances Python).
 (`ocr_zh.py`) et traitement général (`ocr.py`).
 
 ### `Chiens.py` — Premier script Python
