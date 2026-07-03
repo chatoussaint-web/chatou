@@ -19,7 +19,7 @@ chatou/
 │   └── Serpent.py
 └── SQL/
     ├── SQL_TEST_DBSlide.sql
-    ├── SQLExos_Adventure Works2025_1.sql
+    ├── SQLExos_Adventure_Works2025_1.sql
     └── SQLQuery_TEST_Librairie.sql
 ```
 
