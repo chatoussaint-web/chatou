@@ -9,7 +9,8 @@ de l'intégration IA et de la data (2026).
 chatou/
 ├── Notebooks/
 │   ├── Claude_pandas.ipynb
-│   └── Exercices.ipynb
+|   ├── Exercices.ipynb
+│   └── Lumo_python.ipynb
 ├── Python/
 │   ├── OCR/
 │   │   ├── ocr_zh.py
@@ -26,15 +27,22 @@ chatou/
 
 ## Notebooks
 
+### `Claude_pandas.ipynb` — Manipulation de données avec pandas
+Série d'exercices générés par Claude et réalisés à la main sur un dataset fictif de chiens et propriétaires (deux DataFrames liés).
+Opérations couvertes : exploration (`head`, `shape`, `info`), sélection par position (`iloc`), filtrage, création de colonnes calculées, gestion des valeurs manquantes (`isna`, `fillna`), tri, `groupby`, et jointures entre tables (`merge` avec clés de noms différents).
+
 ### `Exercices.ipynb` — Algorithmique & logique
-Série d'exercices progressifs couvrant les fondamentaux de l'algorithmique :
-filtrage de listes, comptage de caractères, détection de palindrome, FizzBuzz,
-nombres premiers, somme des chiffres, suppression de doublons, recherche de
+Série d'exercices générés par Claude et réalisés à la main suivant une progression couvrant les fondamentaux de l'algorithmique :
+filtrage de listes, comptage de caractères, détection de palindrome, FizzBuzz, nombres premiers, somme des chiffres, suppression de doublons, recherche de
 maximum sans `max()`, comptage d'occurrences sans `.count()`, inversion de liste.
 
-### `Claude_pandas.ipynb` — Manipulation de données avec pandas
-Série d'exercices générés par Claude  et réalisés à la main sur un dataset fictif de chiens et propriétaires (deux DataFrames liés).
-Opérations couvertes : exploration (`head`, `shape`, `info`), sélection par position (`iloc`), filtrage, création de colonnes calculées, gestion des valeurs manquantes (`isna`, `fillna`), tri, `groupby`, et jointures entre tables (`merge` avec clés de noms différents).
+### `Lumo_python.ipynb` — Manipulation de données avec python
+Série d'exercices générés par Lumo et réalisés à la main
+Côté Python : comptage de mots dans une phrase (dictionnaires et boucles), recherche du nombre le plus fréquent (`max` avec `key=dict.get`), filtrage
+des nombres pairs avec tri (`.append()` + `sorted()`), top 3 des mots les plus fréquents sur plusieurs phrases (tri personnalisé et slicing), moyenne
+depuis des dictionnaires imbriqués, et filtrage d'étudiants par seuil (condition + accumulation).
+Côté SQL : `SELECT` avec conditions multiples (`AND`/`OR`), `GROUP BY`
+avec agrégation `SUM()` et `ORDER BY DESC`.
 
 ---
 
@@ -45,10 +53,8 @@ Scripts d'extraction de texte depuis le presse-papiers, avec support du chinois
 (`ocr_zh.py`) et traitement général (`ocr.py`).
 
 ### `Chiens.py` — Premier script Python
-Script d'initiation couvrant les bases du langage : variables, f-strings,
-conditions, boucles `while` et `for`, fonctions, listes, dictionnaires,
-list comprehensions et gestion d'exceptions. Réalisé avec un dataset personnel
-(mes trois chiens).
+Script d'initiation couvrant les bases du langage : variables, f-strings, conditions, boucles `while` et `for`, fonctions, listes, dictionnaires,
+list comprehensions et gestion d'exceptions. Réalisé avec un dataset personnel (mes trois chiens).
 
 ### `Serpent.py` — Mini jeu textuel
 Petit jeu d'aventure en anglais basé sur des `input()` et des conditions —
